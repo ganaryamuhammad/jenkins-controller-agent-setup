@@ -221,7 +221,7 @@ Isi:
 Gunakan IP WSL:
 
 ```text
-192.168.137.28
+192.168.209.28
 ```
 
 Host Key Strategy:
@@ -275,7 +275,7 @@ Console output:
 ```text
 Running on jenkins-agent
 whoami -> jenkinsagent
-hostname -> DESKTOP-835V43V
+hostname -> DESKTOP-835V4OI
 Finished: SUCCESS
 ```
 
