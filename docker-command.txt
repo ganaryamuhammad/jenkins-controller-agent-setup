@@ -1,0 +1,16 @@
+# Pull Jenkins Image
+docker pull jenkins/jenkins:lts
+
+# Run Jenkins Container
+docker run -d ^
+--name jenkins ^
+-p 8089:8080 ^
+-p 50000:50000 ^
+-v jenkins_home:/var/jenkins_home ^
+jenkins/jenkins:lts
+
+# Check Running Container
+docker ps
+
+# Get Initial Admin Password
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
